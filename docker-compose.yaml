@@ -6,7 +6,6 @@ services:
             - 8080:8080
         environment: 
             MYSQL_SERVER: mysql
-            MYSQL_USERNAME: root
     mysql:
         image: mysql:8.0
         volumes: 
