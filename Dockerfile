@@ -1,4 +1,4 @@
-FROM python:alpine3.14
+FROM python:latest
 LABEL author="khaja"
 LABEL organization="qualitythought"
 ARG HOME_DIR='/inventory-service'
